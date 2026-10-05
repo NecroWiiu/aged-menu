@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "agedmenu",
+  "version": "${version}",
+  "name": "Aged Menu",
+  "description": "Pantalla de título minimalista con fondo pixel-art, botones animados y transiciones suaves.",
+  "authors": ["Aged"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["agedmenu.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  },
+  "suggests": { "modmenu": "*" }
+}
